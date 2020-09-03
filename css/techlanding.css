@@ -1,0 +1,101 @@
+/*font-family: 'Catamaran', sans-serif;*/
+
+html{
+    height: 100%;
+}
+.container{
+    background-image: linear-gradient(grey,white);
+    border: 2px solid black;
+    border-radius: 5px;
+  
+}
+.navbar-brand{
+    padding-top: 14px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.navbar-right{
+    float: right;
+}
+/*
+body{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+*/
+
+body::after {
+  content: "";
+  background: url(../images/bg.jpg);
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.containerop{
+    text-align: center;
+    padding-top: 15%;
+}
+/*until screen hits max-width of 768px keep below color*/
+/*
+@media(max-width:768px){
+    h1{
+        background-color: #449d44;
+    }
+    h2{
+       background-color: #449d44;    
+    }
+}
+*/
+
+/*until screen hits min-width of 768px keep below color*/
+/*
+@media(min-width:768px){
+    h1{
+        background-color: skyblue;
+    }
+    h2{
+       background-color: lightblue;    
+    }
+}
+*/
+
+
+#hell{
+    font-size: 20px;
+    font-weight: bold;
+}
+#login{
+ min-width: 250px;
+    opacity: 0.7;
+    background-color: rgb(255,255,255);
+    padding: 14px 14px 0;
+    overflow: hidden;
+}
+
+#login .social-buttons{
+    margin: 12px 0;
+}
+
+.btn-fb{
+    color: white;
+    background-color: #3b599d;
+}
+
+.btn-tw{
+    color: white;
+    background-color: #55acee;
+}
